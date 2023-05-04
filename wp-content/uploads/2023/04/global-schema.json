@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Often Will I Wear My Aligners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In order to get the best results with Invisalign, you will need to wear you aligners for at least 20-22 hours a day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Long Does Invisalign Take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On average, Invisalign treatment ranges between 6 months to 2 years, depending on the case. You will have a specified treatment timeline before you start, so you will know what to expect for your case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are There Any Restrictions to What I Can Eat During Treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because these invisible aligners are removable, there are no restrictions to what you can eat during treatment! Generally, you will remove them before any meals, snacks or coffee breaks. mAfter you’re done, teeth should be thoroughly brushed before replacing the aligners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will Wearing the Aligners Affect My Speech?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Invisalign uses thin, clear aligners to gradually shift your teeth into place. Because the material used is so thin, there is minimal impact on your speech. You may notice a slight lisp during the first few days of treatment, but it will dissipate as you adapt to your Invisalign braces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will the Invisalign Treatment Be Painful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Invisalign is a great orthodontic solution, but patients can sometimes feel some tenderness, soreness or tingling when a new aligner is inserted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I Still Chew Gum With Invisalign?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It’s important to remove your Invisalign aligners before consuming any food or drinks. This includes chewing gum."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I Smoke with the Invisalign Aligners In?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You shouldn’t smoke with Invisalign."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Often Do I Need to See My Orthodontist During Invisalign Treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Invisalign treatment is a great option for people with busy schedules, since you only need to visit your orthodontist for check ups every six weeks or so."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I Need Retainers After My Invisalign Treatment Is Finished?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You will need to wear a retainer once you’re finished with your Invisalign treatment. It’s important to wear a retainer after any kind of teeth straightening in order to maintain your smile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I Get Invisalign With Crowns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can. It depends on the number of crowns you have installed. If only one or two of your teeth have crowns, then you can still wear Invisalign."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is An Invisalign Diamond Provider?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Diamond Invisalign Provider is a highly experienced orthodontist who has completed extensive training in the latest Invisalign technology."
+      }
+    }
+  ]
+}

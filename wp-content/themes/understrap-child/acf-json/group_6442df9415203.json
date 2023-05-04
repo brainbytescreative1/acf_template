@@ -1,0 +1,179 @@
+{
+    "key": "group_6442df9415203",
+    "title": "Site Color",
+    "fields": [
+        {
+            "key": "field_6442df977a912",
+            "label": "Site Colors",
+            "name": "site_colors",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Edit site colors on the <a href=\"\/wp-admin\/admin.php?page=style\">Style Page<\/a>.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6442e0ab7a915",
+                        "operator": "!=",
+                        "value": "Use custom color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "site-colors-field",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "choices": {
+                "#1c51a8": "Primary",
+                "#1e88e5": "Secondary",
+                "#fe7315": "Accent",
+                "#272526": "Text",
+                "#827d78": "Light",
+                "#FFFFFF": "White"
+            },
+            "default_value": "#1c51a8",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6442e0ab7a915",
+            "label": "Custom",
+            "name": "custom",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "choices": {
+                "Use custom color": "Use custom color"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_6442e0627a913",
+            "label": "Custom Color",
+            "name": "custom_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6442e0ab7a915",
+                        "operator": "==",
+                        "value": "Use custom color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64498190ab34d",
+            "label": "Transparency Options",
+            "name": "transparency_options",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "choices": {
+                "1": "Add Transparency"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_6442e07f7a914",
+            "label": "Transparency",
+            "name": "transparency",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64498190ab34d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": 100,
+            "min": "",
+            "max": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1682688510
+}

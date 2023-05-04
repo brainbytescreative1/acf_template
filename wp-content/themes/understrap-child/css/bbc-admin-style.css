@@ -1,0 +1,66 @@
+/*** acf ***/
+/* hide labels */
+/*.label-hide .acf-fields {
+	border: 0 !important;
+}
+.label-hide .acf-fields .acf-field {
+	padding: 0;
+}
+.label-hide .acf-fields .acf-field .acf-label label {
+	display: none;
+}*/
+/* options page tabs */
+.toplevel_page_style .acf-tab-group {
+	padding-left: 0 !important;
+}
+/* color picker */
+.site-colors-field input[type=radio] {
+    box-shadow: none;
+}
+.site-colors-field input[type=radio]:checked {
+	border: 2px solid var(--wp--preset--color--luminous-vivid-orange);
+}
+.site-colors-field input[type=radio]:checked::before {
+	background: transparent;
+}
+.site-colors-field label {
+	padding: 10px;
+}
+.site-colors-field label.selected {
+	background: #f2f2f2;
+    border-radius: 5px;
+}
+.site-colors-field .acf-radio-list {
+	outline: none!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+.site-colors-field li:nth-child(1) label input {
+	background: var(--primary);
+}
+.site-colors-field li:nth-child(2) label input {
+	background: var(--secondary);
+}
+.site-colors-field li:nth-child(3) label input {
+	background: var(--accent);
+}
+.site-colors-field li:nth-child(4) label input {
+	background: var(--text);
+}
+.site-colors-field li:nth-child(5) label input {
+	background: var(--light);
+}
+.site-colors-field li:nth-child(6) label input {
+	background: var(--white);
+}
+.site-colors-field input[type=radio] {
+	width: 1.5rem;
+	height: 1.5rem;
+	min-width: 1.5rem;
+}
+.customize-control-ogf-upsell {
+	display: none !important;
+}
+.editor-styles-wrapper a {
+	text-decoration: none !important;
+}
